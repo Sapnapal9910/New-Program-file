@@ -1,0 +1,17 @@
+Que:- Sign Operator.
+
+package demo;
+
+public class Sapna1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 100;
+		int result = (num>>2) & 20;                        // bitwise and
+		                                              
+		                                                     
+		System.out.println("result : "+ result);
+	}
+
+}
+Output:-result : 16

@@ -1,0 +1,27 @@
+Question:- Related to operators program.package demo;
+
+public class Operatordemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int first = 100;              // initializing first variables
+		int second = 200;            //  initializing second variable
+		int result;                  //   declaring third variable
+        boolean result1;            // declaration of fourth variable
+		
+		result1 = (first < second) && (first == second);                // AND
+		System.out.println("AND Operator :  "+result1);
+		
+		result1 = (first < second) || (first == second);               // OR
+		System.out.println("OR Operator :  "+result1);
+		
+		boolean result2 = !result1;
+		System.out.println("NOT operator : "+ result2);                // NOT
+		
+	}
+
+}
+
+ Output:- AND Operator :  false
+OR Operator :  true
+NOT operator : false

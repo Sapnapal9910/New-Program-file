@@ -1,0 +1,18 @@
+Question :- 3 number create and find greatest number.
+
+
+package demo;
+
+public class Greteast {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int one = 150;
+       int two = 300;
+       int three = 600;
+       int result1  = (one>two) ? one : two;
+       int result2 = (result1>three) ? result1 : three;
+       System.out.println( " greatest :" + result2);
+	}
+
+}
